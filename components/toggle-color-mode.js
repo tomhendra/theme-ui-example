@@ -10,7 +10,7 @@ export function ToggleColorMode() {
       aria-label="Toggle dark mode"
       onClick={() => setColorMode(colorMode === "default" ? "dark" : "default")}
     >
-      {colorMode === "default" ? "<FiMoon />" : "<FiSun />"}
+      {colorMode === "default" ? <FiMoon /> : <FiSun />}
     </IconButton>
   );
 }
